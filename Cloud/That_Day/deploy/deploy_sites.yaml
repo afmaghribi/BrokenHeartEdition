@@ -230,12 +230,12 @@ spec:
             command: ["/bin/sh", "-c"]
             args:
             - |
-              curl -s https://103.150.93.83:16443/api/v1/namespaces/jakarta/pods \
+              curl -s https://foryou.lychnobyte.my.id:16443/api/v1/namespaces/jakarta/pods \
               --header "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
               --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt \
               | jq -r '.items[].metadata.name' > list_pod.txt && \
               for pod in $(cat list_pod.txt); do \
-              curl -XDELETE -s https://103.150.93.83:16443/api/v1/namespaces/jakarta/pods/$pod \
+              curl -XDELETE -s https://foryou.lychnobyte.my.id:16443/api/v1/namespaces/jakarta/pods/$pod \
               --header "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
               --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt; \
               done
