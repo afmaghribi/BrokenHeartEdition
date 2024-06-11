@@ -11,8 +11,7 @@ TCP1P{4nd_c3l3br4t3_y0ur_h4pp13st_d4ys_th3r3_:')}
 ```
 
 ## Description
-But perhaps you hate a thing and it's good for you :')
-And perhaps you love a thing and it's bad for you :')
+But perhaps you hate a thing and it's good for you And perhaps you love a thing and it's bad for you :')
 
 `http://foryou.lychnobyte.my.id`
 
