@@ -42,6 +42,10 @@ microk8s enable hostpath-storage
 
 <!-- Ingress -->
 microk8s enable ingress
+
+<!-- Metallb -->
+microk8s enable metallb
+// When asked to input ip address range just input vps / vm ip address. eg. 10.10.10.1-10.10.10.1
 ```
 
 6. Enable anonymous auth
